@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       BUCKET: www.nahom.click
-      DIST: dist
+      DIST: dist/my-portfolio
       REGION: us-east-1
       DIST_ID: E3OQ3A6YJIAJAF
 
