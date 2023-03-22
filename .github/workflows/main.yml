@@ -1,5 +1,5 @@
 ---
-name: Build and Deploy React App to CloudFront
+name: Build and Deploy Angular Portfolio App to CloudFront
 on:
   push:
     branches: [ main ]
@@ -9,9 +9,9 @@ jobs:
     runs-on: ubuntu-latest
     env:
       BUCKET: www.nahom.click
-      DIST: build
+      DIST: dist
       REGION: us-east-1
-      DIST_ID: E3EDTEM5PG6FFE
+      DIST_ID: E3OQ3A6YJIAJAF
 
     steps:
     - name: Checkout code
@@ -23,11 +23,11 @@ jobs:
         aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
         aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         aws-region: ${{ env.REGION }}
-    
+
     - name: Set up Node.js environment
       uses: actions/setup-node@v2
       with:
-        node-version: '14'
+        node-version: '16'
 
     - name: Install Dependencies
       run: |
