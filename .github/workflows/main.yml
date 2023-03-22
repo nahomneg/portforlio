@@ -37,6 +37,7 @@ jobs:
     - name: Build Static Website
       run: |
         npm link @angular/cli
+        npm install @angular-devkit/build-angular --force
         npm run build
 
     - name: Copy files to the production website with the AWS CLI
