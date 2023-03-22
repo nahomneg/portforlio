@@ -37,7 +37,7 @@ export const locale = {
             'languages': 'Langues',
             'fluent': 'Courant',
             'goodLevel': 'Bon niveau',
-            'french': 'Français',
+            'amharic': 'Français',
             'english': 'Anglais',
             'masterDegreeTwo': "Master 2 Informatique E-services",
             'masterDegreeTwoDesc': "Master en services numériques",
@@ -49,7 +49,7 @@ export const locale = {
             'mission':'Mission',
             'technologies':'Téchnologies',
             'detail':'Détail',
-            'tripsCountries':'Belgique, Espagne, Pays-Bas, Suisse',
+            'tripsCountries':'Seychelles',
             'boardGamesPlayed':'Jeu de dames et de dominos, Among US, Ludo, ..etc',
             'years':'ans'
         },
@@ -59,7 +59,7 @@ export const locale = {
             'skills': 'Compétences',
             'references': 'Recommandations',
             'contactMe': 'Me Contacter',
-            
+
         },
         'home': {
             'iAmDeveloper': 'Je suis développeur',
