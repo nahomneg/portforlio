@@ -30,7 +30,7 @@ export class ContactComponent implements OnInit {
 
   onAddEvent() {
     this.contactService.postMessage(this.contactForm.value).subscribe((response)=>{
-     console.log('cuccess');
+     alert('succcesss');
 
     });
   }
